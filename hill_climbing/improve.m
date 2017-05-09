@@ -17,7 +17,8 @@ while (impr < len) &&  (poc < 10000)
   i;
   [q,v] = change_to_oposite(i, vector, data);
   if (q > Q)
-    Q = q;
+    Q = q
+    poc
     vector = v;
     impr = 0;
   else 
@@ -26,7 +27,7 @@ while (impr < len) &&  (poc < 10000)
 endwhile
 
 retval = score(vector,data);
-vector
+vector;
 poc
-impr
+impr;
 endfunction
